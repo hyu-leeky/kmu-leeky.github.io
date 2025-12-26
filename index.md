@@ -26,6 +26,9 @@ Kyungyong has few industry experiecnes as a software development engineer and re
 ---
 
 ### Research <a name="research"></a>
+* AI Assistant-Based Automation Technologies for Operations and Management in Cloud Failure Recovery
+  * Using AI service for cloud operations (AIOPS)
+  * Autonomic Root-Cause-Analysis (RCA) using AI service
 
 * ACE-AI : **A**utonomic **C**loud **E**nvironment for **AI**
   * Autonomically providing cost and performance efficient cloud environment for deep learning training and inference
