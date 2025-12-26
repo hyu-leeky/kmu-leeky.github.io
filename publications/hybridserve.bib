@@ -1,0 +1,17 @@
+@inproceedings{hybridserve,
+author = {Kang, Seokhyeon and Song, Moohyun and Kim, Taeyoon and Lee, Soohyuk and Han, Jaeseob and Kim, Hyeokman and Lee, Kyungyong},
+title = {HybridServe: Adaptive WebAssembly-Container Runtime Selection for Edge Serverless Computing},
+year = {2025},
+isbn = {9798400723025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3774899.3775011},
+doi = {10.1145/3774899.3775011},
+abstract = {Edge serverless environments with limited CPU, memory, and heterogeneous hardware demand efficient execution under resource constraints. A key challenge in serverless computing is cold start, where a function instance is created and initialized from scratch instead of reusing an already initialized (warm) instance, which is particularly severe in edge environments. Container-based platforms exhibit cold start latencies exceeding hundreds of milliseconds with tens of megabyte images, while WebAssembly (WASM) provides less than ten millisecond initialization and compact binaries, but slower execution. We comprehensively analyze multiple WASM runtimes (Wasmtime, Wasmer, WasmEdge) and their compiler backends, revealing that WASM reduces cold start latency by up to 88.1\% and image size by up to 99.17\%, while exhibiting 36.15\% slower execution and 9.26\% higher power consumption for compute-intensive workloads. Based on these complementary characteristics, we propose HybridServe, a dynamic runtime selection framework that leverages WASM during container cold starts while preparing containers in the background. Evaluation on Azure Function Trace demonstrates 43.11\% average response time reduction versus WASM-only and 91.9\% cold start latency reduction versus container-only deployments, effectively mitigating the performance-isolation trade-off in edge serverless computing.},
+booktitle = {Proceedings of the 11th International Workshop on Serverless Computing},
+pages = {1–6},
+numpages = {6},
+keywords = {serverless, WebAssembly, container, edge computing},
+location = {Vanderbilt University, Nashville, TN, USA},
+series = {WoSC11 '25}
+}

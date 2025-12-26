@@ -48,6 +48,10 @@ Kyungyong has few industry experiecnes as a software development engineer and re
   * Version-control of experiments with diverse parameters
 
 #### Publications <a name="publication"></a>
+* S. Chun, K. Kim, K. Kim, M. Song, **K. Lee**, 'Multi-Node Spot Instances Availability Score Collection System', International Symposium on High Performance Distributed Computing (HPDC) - Poster, 2025, [pdf](publications/multi-node-sps.pdf) [acm](https://dl.acm.org/doi/10.1145/3731545.3735122) [bib](publications/multi-node-sps.bib)
+
+* S. Kang, M. Song, T. Kim, S. Lee, J. Han, H. Kim, **K. Lee**, 'HybridServe: Adaptive WebAssembly-Container Runtime Selection for Edge Serverless Computing', 11th Workshop on Serverless Computing (WoSC), 2025, [pdf](publications/hybridserve.pdf) [acm](https://dl.acm.org/doi/10.1145/3774899.3775011) [bib](publications/hybridserve.bib)
+
 * K. Kim, and **Kyungyong Lee**, 'Making Cloud Spot Instance Interruption Events Visible', ACM THE WEB CONFERENCE, WWW 2024, [pdf](publications/spot-interrupt-visible.pdf) [acm](https://dl.acm.org/doi/10.1145/3589334.3645548) [bib](publications/spot-interrupt-visible.bib)
 
 * J. Lim, K. Kim, and **Kyungyong Lee**, 'Workload-Aware Live Migratable Cloud Instance Detector', The 24th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2024, [pdf](publications/workload-aware-migrate-detector.pdf) [ieee](https://ieeexplore.ieee.org/document/10701375) [bib](publications/workload-aware-migrate-detector.bib)
