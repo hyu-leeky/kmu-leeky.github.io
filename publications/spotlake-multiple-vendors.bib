@@ -1,0 +1,13 @@
+@article{spotlake-multiple-vendors,
+title = {Cross-vendor multi-node spot instance dynamics: A public cloud data archive service and analysis},
+journal = {Future Generation Computer Systems},
+volume = {188},
+pages = {108827},
+year = {2027},
+issn = {0167-739X},
+doi = {https://doi.org/10.1016/j.future.2026.108827},
+url = {https://www.sciencedirect.com/science/article/pii/S0167739X26004619},
+author = {Jaeil Hwang and Taeyoon Kim and Kyungyong Lee},
+keywords = {Spot instance, Cloud computing, Multi-node availability, Dataset archive, Multi-cloud systems},
+abstract = {Cloud spot instances trade unpredictable interruption for substantial price savings, and understanding the availability pattern is a central concern in using them. Existing work largely covers single-node availability on a single vendor and has not characterized multi-node provisioning dynamics, nor has it tested whether vendor-provided availability scores actually predict real outcomes. This paper aims to close both gaps through systematic cross-vendor data collection, multi-node availability analysis, and real-world provisioning validation. To this end, a collection system is first built to continuously monitor spot instance availability across major cloud vendors, with vendor-specific query-optimization algorithms reducing query overhead to enable practical long-term collection within current API rate limits. Using the resulting cross-vendor dataset, the characteristics of multiple spot metrics across vendors are analyzed, revealing that price and interruption frequency act as long-term stability signals, while real-time availability metrics track local supply and demand cycles at both single-node and cluster scale. Fitting a degradation model on both vendors further exposes a structural asymmetry in which availability decreases rapidly with cluster size on AWS while showing minimal degradation and a higher availability floor on Azure. To verify whether the collected metrics actually represent real spot instance provisioning behavior, over 215,000 real provisioning attempts are conducted on both vendors, confirming that the same availability score carries different operational meaning on different providers. The collected dataset and the collection system are released through a public webpage and open-source repository.}
+}
